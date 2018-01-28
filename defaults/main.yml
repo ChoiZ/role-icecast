@@ -1,0 +1,26 @@
+---
+
+icecast_location: Earth
+icecast_admin: icemaster@localhost
+
+icecast_limits_clients: 100
+icecast_limits_sources: 2
+
+icecast_authentication_source_password: hackmysource
+icecast_authentication_relay_user: relay
+icecast_authentication_relay_password: hackmyrelay
+icecast_authentication_admin_user: admin
+icecast_authentication_admin_password: hackmyadmin
+
+icecast_hostname: localhost
+
+icecast_listen_socket_port: 8000
+icecast_listen_socket_bind_address: 127.0.0.1
+
+# List of mounts to define.
+icecast_mounts:
+  # For valid mount options, see:
+  # http://icecast.org/docs/icecast-2.4.1/config-file.html#mountsettings
+  - mount-name: /station
+
+icecast_log_level: info

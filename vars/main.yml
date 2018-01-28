@@ -1,0 +1,6 @@
+---
+icecast_logging_loglevel:
+  debug: 4
+  info: 3
+  warn: 2
+  error: 1
